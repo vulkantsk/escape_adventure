@@ -58,11 +58,6 @@ function PathGraph:DrawPathCorners(pathCornerName, duration, color)
 			DebugDrawCircle(corner:GetAbsOrigin(), color, 50, 20, true, duration)
 			seen[corner:entindex()] = corner
 
-			local next_edge = corner.hNext 
-			if hNext then
-				DebugDrawLine_vCol(corner:GetAbsOrigin(), next_edge:GetAbsOrigin(), color, true, duration)
-			end
-
 			for edge,_ in pairs(edges) do
 			--		if seen[index] == nil then
 				DebugDrawLine_vCol(corner:GetAbsOrigin(), edge:GetAbsOrigin(), color, true, duration)
@@ -105,7 +100,8 @@ end
 
 function PathGraph:OnGameRulesStateChange()
 	if GameRules:State_Get() == DOTA_GAMERULES_STATE_CUSTOM_GAME_SETUP then
-		PathGraph:Initialize()
+		self:Initialize()
+--		self:DrawPathCorners()
 	end
 end
 

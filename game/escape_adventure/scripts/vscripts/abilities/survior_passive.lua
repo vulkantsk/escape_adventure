@@ -42,9 +42,7 @@ function modifier_survior_passive:OnIntervalThink()
 									false)
 	for _,unit in pairs (units) do
 		local unit_name = unit:GetUnitName()
-		print(unit_name)
-		if unit_name == "npc_dota_event_ghoul_3"  then
-			parent:ForceKill(false)
-		end
+--		print(unit_name)
+		parent:ForceKill(false)
 	end
 end
