@@ -1,0 +1,105 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+
+	gate_break = 
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/triggers/gate_break.vsnd",
+		]
+		volume 			= 1.000000
+		pitch 			= 1.000000
+		soundlevel 		= 78.000000
+	}
+
+	gate_open = 
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/ambient/tut_gate_metal_open01.vsnd",
+			"sounds/ambient/tut_gate_metal_open02.vsnd",
+		]
+		volume 			= 1.000000
+		pitch 			= 1.000000
+		soundlevel 		= 78.000000
+	}
+
+	Conquest.FireTrap.Generic = 
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/fire_trap.vsnd",
+		]
+		volume 			= 0.6
+		pitch 			= 1.000000
+		soundlevel 		= 78.000000
+		spread_radius 	= 1000
+		mixgroup		= "Weapons"
+	}
+
+
+	jump_up = 
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/triggers/jump_up.vsnd",
+		]
+		volume 			= 1.5
+		pitch 			= 1.000000
+		soundlevel 		= 78.000000
+		spread_radius 	= 1000
+		mixgroup		= "Weapons"
+	}
+
+
+	jump_down = 
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/triggers/jump_down.vsnd",
+		]
+		volume 			= 1.5
+		pitch 			= 1.000000
+		soundlevel 		= 78.000000
+		spread_radius 	= 1000
+		mixgroup		= "Weapons"
+	}
+
+
+	jump_side = 
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/triggers/jump_side.vsnd",
+		]
+		volume 			= 1.5
+		pitch 			= 1.000000
+		soundlevel 		= 78.000000
+		spread_radius 	= 1000
+		mixgroup		= "Weapons"
+	}
+	
+	trap_sping.jump = 
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/triggers/jump_up.vsnd",
+			"sounds/triggers/jump_down.vsnd",
+			"sounds/triggers/jump_side.vsnd",
+		]
+		volume 			= 1.5
+		pitch 			= 1.000000
+		soundlevel 		= 78.000000
+		spread_radius 	= 1000
+		mixgroup		= "Weapons"
+	}
+
+
+}

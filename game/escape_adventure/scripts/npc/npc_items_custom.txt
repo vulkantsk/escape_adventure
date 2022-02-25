@@ -1,0 +1,56 @@
+"DOTAAbilities"
+{
+	"item_key_simple"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_key"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_key_simple"
+//		"Model"							"models/props_gameplay/salve.vmdl"
+
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		"ItemKillable"					"1"
+		"ItemDroppable" 				"1"
+	 	"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+	    "ItemQuality"    "artifact"
+	    "ItemDisassembleRule" "DOTA_ITEM_DISASSEMBLE_NEVER"
+
+	}
+	"item_key_enique"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_key"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_key_enique_1"
+//		"Model"							"models/props_gameplay/salve.vmdl"
+
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		"ItemKillable"					"1"
+		"ItemDroppable" 				"1"
+	 	"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+	    "ItemQuality"    "artifact"
+	    "ItemDisassembleRule" "DOTA_ITEM_DISASSEMBLE_NEVER"
+
+	}
+	"item_endgame"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_endgame"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET|DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityTextureName"			"item_endgame"
+		"Model"							"models/props_gameplay/gem01.vmdl"
+		"Effect"						"particles/generic_gameplay/dropped_gem.vpcf"
+
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		"ItemKillable"					"1"
+		"ItemDroppable" 				"1"
+	 	"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+	    "ItemQuality"    "artifact"
+	    "ItemDisassembleRule" "DOTA_ITEM_DISASSEMBLE_NEVER"
+
+	}
+		
+}

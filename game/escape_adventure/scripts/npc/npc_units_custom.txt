@@ -1,0 +1,391 @@
+// Units File
+"DOTAUnits"
+{
+	"Version"	"1"
+	"npc_base_unit"
+	{
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/events/frostivus/penguin/penguin.vmdl"
+		"ModelScale"				"1"
+
+		"Ability1"		"invul_unit"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"1"	
+		"AttackAnimationPoint"		"0.2"
+		"ProjectileSpeed"			"1550"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"									// 
+
+		"StatusHealth"				"200"
+		"StatusHealthRegen"			"1.5"
+		"StatusMana"				"100"
+		"StatusManaRegen"			"1"	
+
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// 
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
+
+	"npc_dota_fire_trap1"
+	{
+		"vscripts"					"ai/ai_fire_trap_1"
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/props/traps/barking_dog/barking_dog.vmdl"
+		"ModelScale"				"1"
+
+		"Ability1"					"breathe_fire_alt"
+		"Ability2"					"trap_unselectable"			// Ability 2.
+
+		"StatusHealth" 				"1"
+		"StatusHealthRegen" 		"0"
+		"RingRadius"				"50"
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"			// Speed
+		"MovementTurnRate"			"0"			// Turning rate.
+
+		"VisionDaytimeRange"		"100"		// Range of vision during day light.
+		"VisionNighttimeRange"		"100"		// Range of vision at night time.
+
+	}
+	"npc_dota_fire_trap2"
+	{
+		"vscripts"					"ai/ai_fire_trap_2"
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/props/traps/barking_dog/barking_dog.vmdl"
+		"ModelScale"				"1"
+
+		"Ability1"					"breathe_fire_alt"
+		"Ability2"					"trap_unselectable"			// Ability 2.
+
+		"StatusHealth" 				"1"
+		"StatusHealthRegen" 		"0"
+		"RingRadius"				"50"
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"			// Speed
+		"MovementTurnRate"			"0"			// Turning rate.
+
+		"VisionDaytimeRange"		"100"		// Range of vision during day light.
+		"VisionNighttimeRange"		"100"		// Range of vision at night time.
+
+	}
+	"npc_dota_fire_trap3"
+	{
+		"vscripts"					"ai/ai_fire_trap_3"
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/props/traps/barking_dog/barking_dog.vmdl"
+		"ModelScale"				"1"
+
+		"Ability1"					"breathe_fire_alt"
+		"Ability2"					"trap_unselectable"			// Ability 2.
+
+		"StatusHealth" 				"1"
+		"StatusHealthRegen" 		"0"
+		"RingRadius"				"50"
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"			// Speed
+		"MovementTurnRate"			"0"			// Turning rate.
+
+		"VisionDaytimeRange"		"100"		// Range of vision during day light.
+		"VisionNighttimeRange"		"100"		// Range of vision at night time.
+
+	}
+
+	"npc_dota_fire_trap_ward"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/props/traps/barking_dog/barking_dog.vmdl"// Model.
+		"Level"						"1"
+		"VisbibleInPortraitOnly"	"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+
+		"Ability1"					"breathe_fire"			// Ability 1.
+		"Ability2"					"trap_unselectable"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"			// Type of locomotion - ground, air
+		"MovementSpeed"				"0"			// Speed
+		"MovementTurnRate"			"0.25"			// Turning rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+	}
+
+	"npc_dota_cell_trap"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/props_structures/ancient_trigger001.vmdl"// Model.
+		"Level"						"1"
+		"ModelScale"				"0.75"
+
+		// Abilities
+		//----------------------------------------------------------------
+
+		"Ability1"					"cell_toss"			// Ability 1.
+		"Ability2"					"trap_unselectable"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"			// Type of locomotion - ground, air
+		"MovementSpeed"				"0"			// Speed
+		"MovementTurnRate"			"0.25"			// Turning rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+	}
+	"npc_dota_cell_trap"
+	{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/props_structures/ancient_trigger001.vmdl"// Model.
+		"Level"						"1"
+		"ModelScale"				"0.75"
+
+		// Abilities
+		//----------------------------------------------------------------
+
+		"Ability1"					"cell_toss"			// Ability 1.
+		"Ability2"					"trap_unselectable"			// Ability 2.
+		"Ability3"					""			// Ability 3.
+		"Ability4"					""			// Ability 4.
+		"Ability5"					""			// Ability 5.
+		"Ability6"					""			// Ability 6 - Extra.
+		"Ability7"					""			// Ability 7 - Extra.
+		"Ability8"					""			// Ability 8 - Extra.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"			// Type of locomotion - ground, air
+		"MovementSpeed"				"0"			// Speed
+		"MovementTurnRate"			"0.25"			// Turning rate.
+
+		// Team
+		//----------------------------------------------------------------
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+	}	
+	"npc_patrol_guard_kobold"
+	{
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/creeps/neutral_creeps/n_creep_kobold/kobold_b/n_creep_kobold_b.vmdl"	// Model.
+		"ModelScale"				"1"
+
+		"Ability1"		"invul_unit"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"1"	
+		"AttackAnimationPoint"		"0.2"
+		"ProjectileSpeed"			"1550"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"									// 
+
+		"StatusHealth"				"200"
+		"StatusHealthRegen"			"1.5"
+		"StatusMana"				"100"
+		"StatusManaRegen"			"1"	
+
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// 
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
+	"npc_patrol_guard_ogre"
+	{
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/creeps/neutral_creeps/n_creep_ogre_med/n_creep_ogre_med.vmdl"	// Model.
+		"ModelScale"				"1"
+
+		"Ability1"		"invul_unit"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"1"	
+		"AttackAnimationPoint"		"0.2"
+		"ProjectileSpeed"			"1550"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"									// 
+
+		"StatusHealth"				"200"
+		"StatusHealthRegen"			"1.5"
+		"StatusMana"				"100"
+		"StatusManaRegen"			"1"	
+
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// 
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
+	"npc_cycle_guard_mud_golem"
+	{
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/creeps/neutral_creeps/n_creep_golem_b/n_creep_golem_b.vmdl"	// Model.
+		"ModelScale"				"1"
+
+		"Ability1"		"invul_unit"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"1"	
+		"AttackAnimationPoint"		"0.2"
+		"ProjectileSpeed"			"1550"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"									// 
+
+		"StatusHealth"				"200"
+		"StatusHealthRegen"			"1.5"
+		"StatusMana"				"100"
+		"StatusManaRegen"			"1"	
+
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// 
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
+	"npc_cycle_guard_rock_golem"
+	{
+
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a.vmdl"	// Model.
+		"ModelScale"				"1"
+
+		"Ability1"		"invul_unit"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"20"
+		"AttackRate"				"1"	
+		"AttackAnimationPoint"		"0.2"
+		"ProjectileSpeed"			"1550"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"-2"
+		"MagicalResistance"			"25"									// 
+
+		"StatusHealth"				"200"
+		"StatusHealthRegen"			"1.5"
+		"StatusMana"				"100"
+		"StatusManaRegen"			"1"	
+
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// 
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"
+	}
+
+}

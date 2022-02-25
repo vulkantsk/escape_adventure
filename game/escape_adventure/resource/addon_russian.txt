@@ -1,0 +1,80 @@
+"lang"
+{
+"Language"	"russian"
+"Tokens"
+{
+
+//Phantom Assassin(Special hero)
+
+		"npc_dota_hero_phantom_assassin"			"Фантомка"
+
+		"DOTA_Tooltip_ability_imba_phantom_assassin_triple_blow"                        "Triple blow"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_triple_blow_Description"            "Используя навыки убийцы ,совершает серию молниеносных атак!"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_triple_blow_max_hits"               "КОЛИЧЕСТВО УДАРОВ:"
+
+		"DOTA_Tooltip_ability_phantom_assassin_adrenaline"                        "Adrenaline"
+		"DOTA_Tooltip_ability_phantom_assassin_adrenaline_Description"            "Чувствуя огромный прилив адреналина ,ускоряет скорость атаки и передвижения ! "
+		"DOTA_Tooltip_ability_phantom_assassin_adrenaline_duration"               "ДЛИТЕЛЬНОСТЬ:"
+		"DOTA_Tooltip_ability_phantom_assassin_adrenaline_ms_bonus"               "%БОНУС СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"
+		"DOTA_Tooltip_ability_phantom_assassin_adrenaline_as_bonus"               "%БОНУС СКОРОСТИ АТАКИ:"
+
+		"DOTA_Tooltip_ability_phantom_assassin_blur_custom"                        "Blur"
+		"DOTA_Tooltip_ability_phantom_assassin_blur_custom_Description"            "Герой сосредотачивается на себе, что позволяет ему уклоняться от атак. "
+		"DOTA_Tooltip_ability_phantom_assassin_blur_custom_bonus_evasion"          "%УВОРОТ:"
+		
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger"                        "Stifling Daggers"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_Description"            "Бросает кинжалы в врагов, цели получают урон зависящий от атаки. Кинжал может запускать любой модификатор, применяемый при атаке, например, критические удары."       
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_Lore"                   "Первое умение, полученное Сестрами Завесы, часто сигнализирует о входящем ударе."
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_move_slow"              "%ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_slow_duration"          "ДЛИТЕЛЬНОСТЬ ПЕРЕДВИЖЕНИЯ:"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_bonus_damage"           "УРОН КИНЖАЛА:"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_damage_pct"           "%УРОН ОТ АТАКИ:"
+//		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_aghanim_description"    "Mortred throws 3 additional daggers after the first one; these hit random enemies in range, but cannot hit the same target more than once, unless there are less enemies in the area than daggers to throw."
+		"DOTA_Tooltip_ability_imba_phantom_assassin_stifling_dagger_cast_range"             "РАДИУС:"
+
+		"DOTA_Tooltip_modifier_imba_stifling_dagger_slow"                                   "Stifling Dagger"
+		"DOTA_Tooltip_modifier_imba_stifling_dagger_slow_Description"                       "Замедлен"
+
+		"DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace"                          "Coup de Grace"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_Description"              "Phantom Assassin уточняет свои боевые способности, получая шанс нанести разрушительный критический удар врагам !\n<font color='#FF7800'>Dance of Death:</font> После каждой критической атаки множитель крита увеличивается !"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_Lore"                     "Божественная забастовка, Mortred почитает своего противника, выбирая их для смерти."
+		"DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_crit_bonus"               "%КРИТИЧЕСКИЙ УРОН:"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_crit_chance"              "%ШАНС КРИТА:"
+		"DOTA_Tooltip_ability_imba_phantom_assassin_coup_de_grace_crit_increase_mult"          "%МНОЖИТЕЛЬ КРИТА ЗА СТАК:"
+
+		"DOTA_Tooltip_modifier_imba_coup_de_grace"                           "Dance of Death"
+		"DOTA_Tooltip_modifier_imba_coup_de_grace_Description"               "Критический урон увеличен."
+
+		"DOTA_Tooltip_ability_phantom_assassin_death_rush"                        "Rush of death"
+		"DOTA_Tooltip_ability_phantom_assassin_death_rush_Description"            "Используя темную магию , герой получает огромную мощь , но находится на грани смерти и не может умереть ! По истечению эффекта герой умерает. "
+		"DOTA_Tooltip_ability_phantom_assassin_death_rush_duration"               "ДЛИТЕЛЬНОСТЬ:"
+		"DOTA_Tooltip_ability_phantom_assassin_death_rush_ms_bonus"               "БОНУС СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"
+		"DOTA_Tooltip_ability_phantom_assassin_death_rush_as_bonus"               "БОНУС СКОРОСТИ АТАКИ:"
+		"DOTA_Tooltip_ability_phantom_assassin_death_rush_dmg_bonus"              "БОНУС БАЗОВОГО УРОНА:"
+		"DOTA_Tooltip_modifier_phantom_death_rush"                           "Rush of death"
+		"DOTA_Tooltip_modifier_phantom_death_rush_Description"               "УБЕЙ УБЕЙ УБЕЙ"
+
+// Crystal maiden
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance"									"Ice boom"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance_Description"						"При атаке имеет шанс создать вокруг врага ледяной взрыв, который наносит урон, и замедляет всех противников в области."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance_proc_chance"						"%ШАНС СРАБАТЫВАНИЯ"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance_base_damage"						"УРОН"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance_duration"						"ДЛИТЕЛЬНОСТЬ"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance_radius"							"РАДИУС ПОРАЖЕНИЯ"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance_movespeed_slow"					"ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_enhance_attackspeed_slow"				"ЗАМЕДЛЕНИЕ АТАКИ"
+
+///Items
+
+		"заголовок"				"<h1> заголовок </h1>"
+		"подсказка"				"\n<font color='#ff9966'><em> подсказка </em> </font>"
+		"цветной текст"			"<font color='#FFD700'> текст  </font>"
+
+		"DOTA_Tooltip_Ability_"                         			"name"
+		"DOTA_Tooltip_ability__Description"           				"desc"
+		"DOTA_Tooltip_ability__"                        		":"
+		"DOTA_Tooltip_modifier_"                            	"name"
+		"DOTA_Tooltip_modifier__Description"                	"desc"
+	}
+}
+
